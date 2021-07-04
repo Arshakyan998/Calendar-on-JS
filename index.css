@@ -1,0 +1,28 @@
+
+
+.calendar tbody tr{
+        
+        display: flex;
+        flex-wrap: wrap;
+        width: 331px;
+        margin: auto;
+        padding: 0;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+} 
+
+
+ .calendar tbody tr td{
+        text-align: center;
+       display: block;
+       padding: 5px;
+       font-size: 25px;
+       width: 35px;
+        
+} 
+
+.active{
+        background: yellow;
+        color: black;
+} 
